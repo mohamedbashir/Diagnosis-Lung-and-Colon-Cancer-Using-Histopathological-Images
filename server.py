@@ -6,16 +6,9 @@ from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 from tensorflow.keras.models import model_from_json
 from tensorflow.keras.preprocessing import image
-from tensorflow.python.framework import ops
-from werkzeug.utils import secure_filename
 
 
-app = FastAPI(title='Tensorflow FastAPI  ')
-
-# Import Keras dependencies
-ops.reset_default_graph()
-
-app = FastAPI(title='Tensorflow FastAPI  ')
+app=FastAPI(title='Tensorflow FastAPI')
 
 
 input_shape = (150, 150)
