@@ -8,7 +8,7 @@ from tensorflow.keras.models import model_from_json
 from tensorflow.keras.preprocessing import image
 
 
-app=FastAPI(title='Tensorflow FastAPI')
+app = FastAPI(title='Diagnosis Lung Cancer FastAPI')
 
 
 input_shape = (150, 150)
@@ -55,19 +55,6 @@ def preprocess(image: Image.Image):
 
         return result
     return str(result).lower()
-
-
-def predict(image: np.ndarray):
-    predication = _model.predict(image)
-    if predication == [2]:
-        predication = ('Lung squamous cell carcinoma')
-    elif predication == [0]:
-        predication = ('Lung Adenocarcinoma')
-    elif predication == [1]:
-        predication = ('Lung benign tissue')
-
-        return predication
-    return str(predication).lower()
 
 
 @app.get("/index")
