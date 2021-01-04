@@ -7,10 +7,9 @@ numpy==1.19.2
 Pillow 
 pyinstaller==4.1
 python-multipart==0.0.5
-tensorboard-plugin-wit==1.7.0
 tensorflow==2.4.0
 tensorflow-estimator==2.4.0rc0
-tensorflow-hub==0.9.0
+tensorflow-gpu
 uvicorn==0.12.2
 httptools
 uvloop
