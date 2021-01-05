@@ -2,14 +2,12 @@ fastapi==0.61.2
 fastcache==1.1.0
 imagesize==1.2.0
 multipart==0.2.3
-multipledispatch==0.6.0
 numpy==1.19.2
 Pillow 
 pyinstaller==4.1
 python-multipart==0.0.5
 tensorflow==2.4.0
 tensorflow-estimator==2.4.0rc0
-tensorflow-gpu
 uvicorn==0.12.2
 httptools
 uvloop
