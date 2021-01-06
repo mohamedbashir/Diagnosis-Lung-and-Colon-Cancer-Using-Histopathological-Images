@@ -1,11 +1,5 @@
-fastapi
-fastcache
-imagesize
-multipart
-numpy
-Pillow 
-python-multipart
-tensorflow-cpu
-uvicorn
-gunicorn
-starlette
+numpy==1.18.5
+uvicorn==0.12.2
+tensorflow==2.3.1
+fastapi==0.63.0
+Pillow==8.1.0
