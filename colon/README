@@ -10,9 +10,8 @@ predict whether they have:
 • Colon adenocarcinoma
 
 
-This dataset contains 15,000 histopathological images with 3 classes.
+This dataset contains 10,000 histopathological images with 2 classes.
 All images are 768 x 768 pixels in size and are in jpeg file format. 
 The images weregenerated from an original sample of HIPAA compliant and validated sources, consisting
-of 750 total images of lung tissue (250 benign lung tissue, 250 lung adenocarcinomas,
-and 250 lung squamous cell carcinomas) and augmented to 15,000 using the Augmentor
-package. There are three classes in the dataset, each with 5,000 images
+of 750 total images of colon tissue (250 Colon benign tissue, 250 Colon adenocarcinoma) and augmented to 10,000 using the Augmentor
+package. There are two classes in the dataset, each with 5,000 images
