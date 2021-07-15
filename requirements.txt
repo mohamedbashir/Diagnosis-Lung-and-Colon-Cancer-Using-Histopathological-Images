@@ -1,9 +1,0 @@
-fastapi
-multipart
-numpy
-Pillow 
-python-multipart
-tensorflow-cpu
-uvicorn
-gunicorn
-starlette==0.13.6
