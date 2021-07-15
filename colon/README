@@ -1,4 +1,7 @@
 
+# Diagnosis Colon Cancer
+
+
 In our case, the problem we will be exploring is Binary-Class Classification
 This is because we're going to be using a Histopathological Images about a person to
 predict whether they have:
