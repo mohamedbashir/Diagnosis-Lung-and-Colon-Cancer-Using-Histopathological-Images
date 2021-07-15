@@ -1,0 +1,15 @@
+fastapi
+multipart
+tensorflow
+numpy
+Pillow 
+python-multipart
+tensorflow-cpu
+uvicorn
+gunicorn
+starlette==0.13.6
+pyinstaller
+jupyter
+matplotlib
+scikit-learn
+lxml
