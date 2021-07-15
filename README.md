@@ -25,7 +25,7 @@ Dataset : [kaggle](https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histop
 
 1. install requirements.txt using python on cmd
 
-2. cd ..\FastAPI\service 
+2. cd "The path in which the server.py file is located" 
 
 3. python server.py
 
