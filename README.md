@@ -13,7 +13,7 @@ subfolder with 5000 images of lung adenocarcinomas, lung_scc subfolder with
 5000 images of lung squamous cell carcinomas, and lung_n subfolder with 5000
 images of benign lung tissues.
 
-We dealt with each type of cancer individually, we use splitfolders function to split
+ > We dealt with each type of cancer individually, we use **splitfolders** function to split
 the data folders to train, test, and validation,with ratios of 70%, 20%, 10%
 
 ![Dataset](https://i.gyazo.com/2dc0dded94d10066b3b9815fb7261188.png)
