@@ -1,42 +1,52 @@
-## Dataset
+# Dataset Overview
 
-The dataset contains color 25,000 images with 5 classes of 5,000 images each. All
-images are 768 x 768 pixels in size and are in jpeg file format., the main folder
-lung_colon_image_set contains two subfolders: colon_image_sets and lung_image_sets.
+This dataset consists of 25,000 color images, categorized into five distinct classes with 5,000 images per class. Each image is 768 x 768 pixels in size and stored in JPEG format. The main directory, `lung_colon_image_set`, contains two subdirectories: `colon_image_sets` and `lung_image_sets`.
 
-The subfolder colon_image_sets contain two secondary subfolders: colon_aca
-subfolder with 5000 images of colon adenocarcinomas and colon_n subfolder with
-5000 images of benign colonic tissues.
+- The `colon_image_sets` folder includes:
+  - `colon_aca`: 5,000 images of colon adenocarcinoma tissues.
+  - `colon_n`: 5,000 images of benign colon tissues.
 
-The subfolder lung_image_sets contain three secondary subfolders: lung_aca
-subfolder with 5000 images of lung adenocarcinomas, lung_scc subfolder with
-5000 images of lung squamous cell carcinomas, and lung_n subfolder with 5000
-images of benign lung tissues.
+- The `lung_image_sets` folder includes:
+  - `lung_aca`: 5,000 images of lung adenocarcinoma tissues.
+  - `lung_scc`: 5,000 images of lung squamous cell carcinoma tissues.
+  - `lung_n`: 5,000 images of benign lung tissues.
 
- > We dealt with each type of cancer individually, we use **splitfolders** function to split
-the data folders to train, test, and validation,with ratios of 70%, 20%, 10%
+We processed each cancer type individually and used the `splitfolders` function to split the dataset into training (70%), testing (20%), and validation (10%) sets.
 
 ![Dataset](https://i.gyazo.com/2dc0dded94d10066b3b9815fb7261188.png)
 
+Dataset source: [Kaggle - Lung and Colon Cancer Histopathological Images](https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopathological-images)
 
-Dataset : [kaggle](https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopathological-images)
+---
 
-## How To Run ?
+## How to Run the Project
 
-1. install requirements.txt using python on cmd
+1. Install the required packages by running the following command:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. cd "The path in which the server.py file is located" 
+2. Navigate to the directory where the `server.py` file is located:
+   ```bash
+   cd /path/to/server.py
+   ```
 
-3. python server.py
+3. Start the server:
+   ```bash
+   python server.py
+   ```
 
-4. http://127.0.0.1:8000/docs 
+4. Access the API documentation in your browser:
+   - Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+---
 
 ## Screenshots
-**Lung FastAPI**
 
-![lungAPI](https://i.gyazo.com/b8676a7ca5d1b469216994c9caaec675.png)
+### Lung API Interface
+![LungAPI](https://i.gyazo.com/b8676a7ca5d1b469216994c9caaec675.png)
 
-**Colon FastAPI**
-
+### Colon API Interface
 ![ColonAPI](https://i.gyazo.com/93bd43fa0be20fcd8850bb412453a1b2.png)
 
+--- 
